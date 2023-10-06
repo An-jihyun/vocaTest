@@ -1,0 +1,28 @@
+main {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__paper {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px #3F3F48;;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin: 100px;
+    color: #3F3F48;
+}
+
+.main__btn i {
+    font-size: 30px;
+}

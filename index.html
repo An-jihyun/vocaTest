@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>VOCA TEST</title>
+    <script src="https://kit.fontawesome.com/9559f47415.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <span>🕊️ VOCA TEST</span>
-      <button>메뉴</button>
+      <span class="header__logo">🕊️ VOCA TEST</span>
+      <button class="header__btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </header>
     <main>
-      <div>
+      <button class="main__btn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <div class="main__paper">
         <p>ex</p>
       </div>
+      <button class="main__btn">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
     </main>
     <footer>
-      <p>&copy; <span></span> VOCA TEST</p>
+      <p class="footer__copy">&copy; <span></span> VOCA TEST</p>
       <!-- #{new Date().getFullYear()} -->
     </footer>
   </body>
