@@ -1,7 +1,8 @@
 @import "reset.css";
 
 body {
-    color: antiquewhite;
+    background-color: #DBCFC8;
+    color: #3F3F48;
     width: 100%;
     height: 100%;
     display: flex;
