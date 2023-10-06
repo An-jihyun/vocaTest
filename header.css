@@ -23,6 +23,7 @@ header{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: #3F3F48; /*색 변수 설정하기*/
 }
 
 .header__btn i {
