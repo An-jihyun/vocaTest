@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>VOCA TEST</title>
-    <script src="https://kit.fontawesome.com/9559f47415.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <span class="header__logo">🕊️ VOCA TEST</span>
+      <form id="nameAddForm">
+        <input id="nameAddInput" placeholder="이름을 입력해주세요." type="text" maxlength="5" />
+        <button type="submit">확인</button>
+      </form>
+      <!-- <ul id="nameUl"></ul> -->
       <button class="header__btn">
         <i class="fa-solid fa-bars"></i>
       </button>
@@ -19,7 +23,21 @@
         <i class="fa-solid fa-chevron-left"></i>
       </button>
       <div class="main__paper">
-        <p>ex</p>
+        <p>
+          플렉스 주인공 :
+          <span id="countDown"></span>
+          <span id="result"></span>
+        </p>
+        <form id="targetNumForm">
+          <input
+            id="targetNumInput"
+            placeholder="추첨수를 입력해주세요."
+            type="number"
+            min="2"
+            required
+          />
+          <button id="targetNumBtn" type="submit">확인</button>
+        </form>
       </div>
       <button class="main__btn">
         <i class="fa-solid fa-chevron-right"></i>
@@ -29,5 +47,8 @@
       <p class="footer__copy">&copy; <span></span> VOCA TEST</p>
       <!-- #{new Date().getFullYear()} -->
     </footer>
+    <script src="https://kit.fontawesome.com/9559f47415.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="./targetnum.js" type="module"></script>
   </body>
 </html>
